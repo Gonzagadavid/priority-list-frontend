@@ -23,8 +23,7 @@
   width: 50%;
   background:
   linear-gradient(rgb(8, 4, 53), transparent),
-  linear-gradient(to top left, lime, transparent),
-  linear-gradient(to top right, blue, transparent);
+  linear-gradient(to top right, rgb(6, 6, 151), transparent);
   background-blend-mode: screen;
 }
 
