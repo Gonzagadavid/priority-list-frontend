@@ -1,12 +1,12 @@
 // endpoints para produção, para rodar localmente comente o endpoints abaixo
 
-export const LOGIN = 'https://todo-priority-list.herokuapp.com/user/login';
+export const LOGIN = 'https://priority-list-backend-production.up.railway.app/user/login';
 
-export const SIGNUP = 'https://todo-priority-list.herokuapp.com/user';
+export const SIGNUP = 'https://priority-list-backend-production.up.railway.app/user';
 
-export const GET_TASKS = 'https://todo-priority-list.herokuapp.com/task';
+export const GET_TASKS = 'https://priority-list-backend-production.up.railway.app/task';
 
-export const TASK_BY_ID = (id) => `https://todo-priority-list.herokuapp.com/task/${id}`;
+export const TASK_BY_ID = (id) => `https://priority-list-backend-production.up.railway.app/task/${id}`;
 
 // para rodar a aplicação localmente descomente os endpoints abaixo
 
